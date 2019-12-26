@@ -1,7 +1,7 @@
 module.exports = {
   title: 'thesis',
   tagline: 'Manuscript and Reading Notes of my PhD',
-  url: 'https://pierrenodet.github.io/thesis',
+  url: 'https://pierrenodet.github.io',
   baseUrl: '/thesis/',
   favicon: 'img/favicon.ico',
   organizationName: 'pierrenodet',

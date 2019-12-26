@@ -1,5 +1,5 @@
 # thesis
-![](https://github.com/actions/hello-world/workflows/.github/workflows/build-and-deploy.yml/badge.svg)
+![](https://github.com/pierrenodet/thesis/workflows/.github/workflows/build-and-deploy.yml/badge.svg)
 [![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 )](https://github.com/pierrenodet/thesis/blob/master/LICENSE)
 
