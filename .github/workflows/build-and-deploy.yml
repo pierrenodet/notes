@@ -14,4 +14,4 @@ jobs:
       run: yarn install && yarn build
 
     - name: Deploy
-      run : yarn deploy
+      run : GIT_USER="pierrenodet" yarn deploy
