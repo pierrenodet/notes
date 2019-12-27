@@ -39,7 +39,7 @@ module.exports = {
           include: ['**/*.md', '**/*.mdx'],
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/pierrenodet/thesis',
+            'https://github.com/pierrenodet/thesis/edit/master',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -47,7 +47,7 @@ module.exports = {
         blog: {
           path: 'notes',
           routeBasePath: 'notes',
-          include: ['**/*.md', '**/*.mdx'],
+          include: ['**/*.md', '**/*.mdx']
         },
       },
     ],
