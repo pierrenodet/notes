@@ -2,7 +2,7 @@
 name: Misc Tasks
 about: Default template to add a task
 title: "[SUBJECT] - [TASK]"
-labels: read
+labels: enhancement
 ---
 
 # Why ?
