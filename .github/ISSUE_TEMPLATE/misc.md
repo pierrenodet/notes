@@ -5,14 +5,14 @@ title: "[SUBJECT] - [TASK]"
 labels: enhancement
 ---
 
-# Why ?
+## Why ?
 
 Explain why you made a new task.
 
-# How ?
+## How ?
 
 Tell how it should be done, or hints.
 
-# What ?
+## What ?
 
 The final result or task.
