@@ -1,3 +1,6 @@
+const math = require('remark-math')
+const katex = require('rehype-katex')
+
 module.exports = {
   title: 'thesis',
   tagline: 'Manuscript and Reading Notes of my PhD',
@@ -40,6 +43,8 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/pierrenodet/thesis/edit/master',
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -47,9 +52,14 @@ module.exports = {
         blog: {
           path: 'notes',
           routeBasePath: 'notes',
-          include: ['**/*.md', '**/*.mdx']
+          include: ['**/*.md', '**/*.mdx'],
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
       },
     ],
+  ],
+  stylesheets: [
+    'https://cdn.jsdelivr.net/npm/katex@0.11.0/dist/katex.min.css',
   ],
 };
