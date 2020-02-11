@@ -194,7 +194,7 @@ RAPPEL Pierre :
 
 Ne plus être dispo après le mercredi midi pour donner un rythme et une habitude aux collègues et à Bruno sur le fait que c’est du temps thèse dédié, ne plus venir à OG.
 
-## Minutes for the December 18th weelky meeting
+## Minutes for the December 18th Agro meeting
 
 Vincent : finit les slides de la review sur le PUL, et étendre au Self Training
 Estimer la propensité par interval en MAR pour revenir a du MCAR par morceaux
@@ -207,3 +207,17 @@ Etat de l’art
 Mettre fiche de lecture et debut these et cr sur GitHub
 
 Antoine : Donner une ref d’un bouquin sur le statisctical learning d’un point de vue très théorique stat probablement théorie de la mesure
+
+## Minutes for the December 18th Agro meeting
+
+Pierre : Aller au bout de l'idée PU = RLL
+	* Estiamtion de e dans le cas MCAR
+	* Plan d'experience
+	* Ecrire les demos au propre
+	* Benchmark estimation e PUL vs zone pures du papier d'origine
+
+Pierre : Envoyer le papier sur la distilation
+
+Antoine et Vincent : Lire le papier sur Biquality Data
+
+Antoine : Envoyer a Pierre son compte github pour acces au repo
