@@ -6,3 +6,5 @@
 My thesis manuscript and my reading notes of papers for my PhD in Weakly Supervised Learning.
 
 <p align="center"><a href="https://pierrenodet.github.io/thesis"><B>website</B></a></p>
+
+If you want to run it locally, type `yarn start` in the shell.
