@@ -60,7 +60,7 @@ This property of the quality of the data was not found in the original paper as 
 
 ## Estimation of the Mutual Information
 
-Estimating the mutual information on continuous random variables is widely known problem and there is a extensive research on this topic. For example see "On The Estimation Of Mutual Information" by Carrara and Ernst.
+Estimating the mutual information on continuous random variables is widely known problem and there is a extensive research on this topic. For example see "On The Estimation Of Mutual Information" by Carrara and Ernst, they directly estimate the joint distribution and use it to compute the marginals.
 
 For educational purposes, we are going to estimate it from the ground up.
 

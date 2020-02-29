@@ -208,7 +208,7 @@ Mettre fiche de lecture et debut these et cr sur GitHub
 
 Antoine : Donner une ref d’un bouquin sur le statisctical learning d’un point de vue très théorique stat probablement théorie de la mesure
 
-## Minutes for the December 18th Agro meeting
+## Minutes for the February 7th Agro meeting
 
 Pierre : Aller au bout de l'idée PU = RLL
 	* Estiamtion de e dans le cas MCAR
