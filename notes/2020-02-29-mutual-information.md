@@ -48,9 +48,9 @@ If we plot this formula we obtain this two figures with $x$ as $\tilde{π}$ and 
 
 <p align="center">
 
-![Mutual Information 3D](/img/mutual-information/3d.gif)
+![Mutual Information 3D](/thesis/figures/mutual-information/3d.gif)
 
-![Mutual Information Contour](/img/mutual-information/contour.gif)
+![Mutual Information Contour](/thesis/figures/mutual-information/contour.gif)
 
 </p>
 

@@ -1,0 +1,19 @@
+name: pdf
+on:
+  push:
+    branches:
+      - master
+jobs:
+  convert_via_pandoc:
+    runs-on: ubuntu-18.04
+    container:
+      image: pandoc/latex:2.9
+      options: -v ./thesis:/thesis:rw
+    steps:
+      - uses: actions/checkout@v2
+      - run: mkdir pdf
+      - run: for f in notes/*.md; do pandoc "$f" --pdf-engine=xelatex -s -o "../pdf/${f%.md}.pdf"; done
+      - uses: actions/upload-artifact@master
+        with:
+          name: pdf
+          path: pdf
