@@ -1,21 +1,28 @@
-name: pdf
+name: master
 on:
   push:
     branches:
       - master
 jobs:
+  build-and-deploy:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@v1
+    - run: yarn install && yarn build
+    - uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: build
   convert_via_pandoc:
     runs-on: ubuntu-18.04
     container:
       image: pandoc/latex:2.9
-      options: -v /thesis/static:/thesis:rw
     steps:
       - uses: actions/checkout@v2
       - run: mkdir pdf
       - run: mkdir /thesis || true
       - run: cp -r static/figures /thesis
-      - run: ls -halt /thesis || true
-      - run: ls -halt /thesis/static || true
       - run: for f in notes/*.md; do pandoc "$f" --pdf-engine=xelatex -s -o "pdf/$(basename "$f" .md).pdf"; done
       - uses: actions/upload-artifact@master
         with:
