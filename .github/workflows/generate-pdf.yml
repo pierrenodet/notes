@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-18.04
     container:
       image: pandoc/latex:2.9
-      options: -v ./thesis:/thesis:rw
+      options: -v /__w/thesis:/thesis:rw
     steps:
       - uses: actions/checkout@v2
       - run: mkdir pdf
