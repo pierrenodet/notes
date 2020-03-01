@@ -8,12 +8,12 @@ jobs:
     runs-on: ubuntu-18.04
     container:
       image: pandoc/latex:2.9
-      options: -v /thesis/static/figures:/thesis:rw
+      options: -v /thesis/static:/thesis:rw
     steps:
       - uses: actions/checkout@v2
       - run: mkdir pdf
       - run: mkdir /thesis || true
-      - run: cp -r static/ /thesis
+      - run: cp -r static/figures /thesis
       - run: ls -halt /thesis || true
       - run: ls -halt /thesis/static || true
       - run: for f in notes/*.md; do pandoc "$f" --pdf-engine=xelatex -s -o "pdf/$(basename "$f" .md).pdf"; done
