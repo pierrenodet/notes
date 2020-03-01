@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: mkdir pdf
       - run: mkdir /thesis || true
-      - run: cp -r static/ /thesis
+      - run: cp -r /thesis/static/ /thesis
       - run: ls -halt /thesis
       - run: for f in notes/*.md; do pandoc "$f" --pdf-engine=xelatex -s -o "pdf/$(basename "$f" .md).pdf"; done
       - uses: actions/upload-artifact@master
