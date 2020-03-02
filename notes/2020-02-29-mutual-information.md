@@ -89,7 +89,10 @@ Same way as the trusted concept
 ### Estimation of the Joint Entropy of both concepts
 
 $$
-H((Y_T|X),(Y_U|X)) = -∫_{x_u∈\mathcal{X}}∑_{y_u∈\mathcal{Y}}∫_{x_u∈\mathcal{X}}∑_{y_u∈\mathcal{Y}}ℙ(Y_T=y_t|X=x_t,Y_U=y_u|X=x_u)log_2(ℙ(Y_T=y_t|X=x_t,Y_U=y_u|X=x_u))
+\begin{aligned}
+H((Y_T|X),(Y_U|X)) &= -∫_{x_u∈\mathcal{X}}∑_{y_u∈\mathcal{Y}}∫_{x_u∈\mathcal{X}}∑_{y_u∈\mathcal{Y}}ℙ(Y_T=y_t|X=x_t,Y_U=y_u|X=x_u)\\
+& * log_2(ℙ(Y_T=y_t|X=x_t,Y_U=y_u|X=x_u))
+\end{aligned}
 $$
 
 We can estimate the $∫_{x∈\mathcal{X}}$ by summing onth on the trusted dataset $D_T$ and once on the untrusted dataset $D_U$
