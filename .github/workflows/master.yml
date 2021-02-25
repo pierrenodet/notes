@@ -21,8 +21,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: mkdir pdf
-      - run: mkdir /thesis || true
-      - run: cp -r static/figures /thesis
+      - run: mkdir /notes || true
+      - run: cp -r static/figures /notes
       - run: for f in notes/*.md; do pandoc "$f" --pdf-engine=xelatex -s -o "pdf/$(basename "$f" .md).pdf"; done
       - uses: actions/upload-artifact@master
         with:

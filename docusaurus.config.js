@@ -2,57 +2,53 @@ const math = require('remark-math')
 const katex = require('rehype-katex')
 
 module.exports = {
-  title: 'thesis',
-  tagline: 'Manuscript and Reading Notes of my PhD',
+  title: 'notes',
+  tagline: 'Reading Notes of my PhD',
   url: 'https://pierrenodet.github.io',
-  baseUrl: '/thesis/',
+  baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'pierrenodet',
-  projectName: 'thesis',
+  projectName: 'notes',
   themeConfig: {
     navbar: {
-      title: 'thesis',
+      title: 'notes',
       logo: {
-        alt: 'thesis logo',
+        alt: 'notes logo',
         src: 'img/logo.png',
       },
-      links: [
-        { to: 'manuscript/introduction', label: 'Manuscript', position: 'right' },
-        { to: 'notes', label: 'Reading Notes', position: 'right' },
-        {
-          href: 'https://github.com/pierrenodet/thesis',
-          label: 'GitHub',
-          position: 'right',
-        },
+      items: [
+        { to: '/', label: 'Reading Notes', position: 'right' },
+        { href: 'https://github.com/pierrenodet/notes', label: 'GitHub', position: 'right' },
       ],
     },
     footer: {
       style: 'dark',
       copyright: `Copyright © ${new Date().getFullYear()} Pierre Nodet.`,
     },
-    disableDarkMode: true
+    colorMode: {
+      disableSwitch: true
+    }
   },
   presets: [
     [
       '@docusaurus/preset-classic',
       {
-        docs: {
-          path: 'manuscript',
-          routeBasePath: 'manuscript',
-          include: ['**/*.md', '**/*.mdx'],
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/pierrenodet/thesis/edit/master',
-          remarkPlugins: [math],
-          rehypePlugins: [katex],
-        },
+        docs: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
         blog: {
-          path: 'notes',
-          routeBasePath: 'notes',
+          path: './notes',
+          routeBasePath: '/',
+          blogTitle: 'WSL Reading Notes',
+          blogDescription: 'Reading Notes of PhD Candidate in Weakly Supervised Learning',
           include: ['**/*.md', '**/*.mdx'],
+          editUrl:
+            'https://github.com/pierrenodet/notes/edit/master',
+          feedOptions: {
+            type: 'all',
+            copyright: `Copyright © ${new Date().getFullYear()} Pierre Nodet.`,
+          },
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
