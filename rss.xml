@@ -2,43 +2,50 @@
 <rss version="2.0">
     <channel>
         <title>notes Blog</title>
-        <link>https://pierrenodet.github.io/</link>
+        <link>https://pierrenodet.github.io/notes/</link>
         <description>notes Blog</description>
-        <lastBuildDate>Wed, 24 Feb 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Feb 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright © 2021 Pierre Nodet.</copyright>
         <item>
+            <title><![CDATA[Co-teaching: Robust Training of Deep Neural Networks with Extremely Noisy Labels (Co-teaching)]]></title>
+            <link>https://pierrenodet.github.io/notes/notes/2021/02/26/coteaching</link>
+            <guid>Co-teaching: Robust Training of Deep Neural Networks with Extremely Noisy Labels (Co-teaching)</guid>
+            <pubDate>Fri, 26 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Co-teaching]]></description>
+        </item>
+        <item>
             <title><![CDATA[Meta-Weight-Net: Learning an Explicit Mapping For Sample Weighting (MWNet)]]></title>
-            <link>https://pierrenodet.github.io/2021/02/24/mwnet</link>
+            <link>https://pierrenodet.github.io/notes/notes/2021/02/24/mwnet</link>
             <guid>Meta-Weight-Net: Learning an Explicit Mapping For Sample Weighting (MWNet)</guid>
             <pubDate>Wed, 24 Feb 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[MWNet]]></description>
         </item>
         <item>
             <title><![CDATA[Meta Label Correction for Noisy Label Learning (MLC)]]></title>
-            <link>https://pierrenodet.github.io/2021/02/19/mlc</link>
+            <link>https://pierrenodet.github.io/notes/notes/2021/02/19/mlc</link>
             <guid>Meta Label Correction for Noisy Label Learning (MLC)</guid>
             <pubDate>Fri, 19 Feb 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[MLC]]></description>
         </item>
         <item>
             <title><![CDATA[Flexible Biquality Learning with Mutual Information]]></title>
-            <link>https://pierrenodet.github.io/2020/02/29/mutual-information</link>
+            <link>https://pierrenodet.github.io/notes/notes/2020/02/29/mutual-information</link>
             <guid>Flexible Biquality Learning with Mutual Information</guid>
             <pubDate>Sat, 29 Feb 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[The concept of Biquality Data has been introduced in "Unifying Semi-Supervised and Robust Learning by Mixup" by Hataya and Nakayama where there is two sets of data, a trusted and an untrusted one.]]></description>
         </item>
         <item>
             <title><![CDATA[Importance Reweighting for Positive Unlabeled Learning]]></title>
-            <link>https://pierrenodet.github.io/2020/02/28/ir-pul</link>
+            <link>https://pierrenodet.github.io/notes/notes/2020/02/28/ir-pul</link>
             <guid>Importance Reweighting for Positive Unlabeled Learning</guid>
             <pubDate>Fri, 28 Feb 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[After redoing the proofs of "Classification with Noisy Labels by Importance Reweighting" by Liu and Tao, we thought that extending their results to Positive Unlabeled Learning could be quite trivial and useful.]]></description>
         </item>
         <item>
             <title><![CDATA[Some proofs about Statistical Learning and Label Noise]]></title>
-            <link>https://pierrenodet.github.io/2020/01/11/proofs</link>
+            <link>https://pierrenodet.github.io/notes/notes/2020/01/11/proofs</link>
             <guid>Some proofs about Statistical Learning and Label Noise</guid>
             <pubDate>Sat, 11 Jan 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[When doing binary classfication, having noise in our label means that they can be flipped from one class to the other. When observing a label, we will never know if it has been flipped or not, only the probability of the flip to occur.]]></description>
