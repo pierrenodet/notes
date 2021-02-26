@@ -4,20 +4,15 @@ const katex = require('rehype-katex')
 module.exports = {
   title: 'notes',
   tagline: 'Reading Notes of my PhD',
-  url: 'https://pierrenodet.github.io',
-  baseUrl: '/',
+  url: 'https://pierrenodet.github.io/notes',
+  baseUrl: '/notes/',
   favicon: 'img/favicon.ico',
   organizationName: 'pierrenodet',
   projectName: 'notes',
   themeConfig: {
     navbar: {
       title: 'notes',
-      logo: {
-        alt: 'notes logo',
-        src: 'img/logo.png',
-      },
       items: [
-        { to: '/', label: 'Reading Notes', position: 'right' },
         { href: 'https://github.com/pierrenodet/notes', label: 'GitHub', position: 'right' },
       ],
     },

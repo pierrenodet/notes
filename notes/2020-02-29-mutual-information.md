@@ -1,5 +1,6 @@
 ---
 title: "Flexible Biquality Learning with Mutual Information"
+tags: [brainstorming]
 ---
 
 The concept of Biquality Data has been introduced in "Unifying Semi-Supervised and Robust Learning by Mixup" by Hataya and Nakayama where there is two sets of data, a trusted and an untrusted one.
