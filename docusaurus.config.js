@@ -4,7 +4,7 @@ const katex = require('rehype-katex')
 module.exports = {
   title: 'notes',
   tagline: 'Reading Notes of my PhD',
-  url: 'https://pierrenodet.github.io/notes',
+  url: 'https://pierrenodet.github.io',
   baseUrl: '/notes/',
   favicon: 'img/favicon.ico',
   organizationName: 'pierrenodet',
