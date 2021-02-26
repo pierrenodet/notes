@@ -1,5 +1,6 @@
 ---
 title: "Co-teaching: Robust Training of Deep Neural Networks with Extremely Noisy Labels (Co-teaching)"
+tags: [reading-notes,instance-selection,collaborative-learning]
 ---
 
 <p align="center">
