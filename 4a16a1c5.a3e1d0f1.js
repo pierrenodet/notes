@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{70:function(e){e.exports=JSON.parse('{"allTagsPath":"/notes/tags","slug":"importance-reweighting","name":"importance-reweighting","count":3,"permalink":"/notes/tags/importance-reweighting"}')}}]);

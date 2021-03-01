@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[14],{79:function(o){o.exports=JSON.parse('{"allTagsPath":"/notes/tags","slug":"label-correction","name":"label-correction","count":1,"permalink":"/notes/tags/label-correction"}')}}]);

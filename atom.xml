@@ -2,12 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pierrenodet.github.io/</id>
     <title>notes Blog</title>
-    <updated>2021-02-26T00:00:00.000Z</updated>
+    <updated>2021-03-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pierrenodet.github.io/"/>
     <subtitle>notes Blog</subtitle>
     <icon>https://pierrenodet.github.io/img/favicon.ico</icon>
     <rights>Copyright © 2021 Pierre Nodet.</rights>
+    <entry>
+        <title type="html"><![CDATA[MentorNet: Learning Data-Driven Curriculum for Very Deep Neural Networks on Corrupted Labels (MentorNet)]]></title>
+        <id>MentorNet: Learning Data-Driven Curriculum for Very Deep Neural Networks on Corrupted Labels (MentorNet)</id>
+        <link href="https://pierrenodet.github.io/notes/2021/03/01/mentornet"/>
+        <updated>2021-03-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[MentorNet]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Co-teaching: Robust Training of Deep Neural Networks with Extremely Noisy Labels (Co-teaching)]]></title>
         <id>Co-teaching: Robust Training of Deep Neural Networks with Extremely Noisy Labels (Co-teaching)</id>

@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[20],{84:function(n){n.exports=JSON.parse('{"allTagsPath":"/notes/tags","slug":"meta-learning","name":"meta-learning","count":2,"permalink":"/notes/tags/meta-learning"}')}}]);
