@@ -1,5 +1,6 @@
 ---
 title: "MentorNet: Learning Data-Driven Curriculum for Very Deep Neural Networks on Corrupted Labels (MentorNet)"
+tags: [reading-notes,meta-learning,importance-reweighting]
 ---
 
 <p align="center">
@@ -13,12 +14,10 @@ title: "MentorNet: Learning Data-Driven Curriculum for Very Deep Neural Networks
 
 ## Summary
 
-Summarize the main claims/contributions of the paper in your own words
-
 1. Modern take/refresh on curriculum learning
-2. Algorithm to learn a curriculum from data instead of hand designing it
+2. Meta Learning algorithm to learn a curriculum from data instead of hand designing it : Learning curriculum
 3. Actual Biquality Learning algorithm (learning the curriculum on a mix of trusted and untrusted data)
-4. Proposed architecture of MentorNet (model that represent the learned curriculum) with bidirection LSTM and MLP
+4. Proposed architecture of MentorNet (model that represent the learned curriculum) with bidirection LSTM (for loss evolution and memory) and MLP
 5. Insights on the algorithm that might (not automatically) optimize an M-Robust loss function.
 6. Exaustive experiments against state of the art curriculum based reweighting scheme.
 

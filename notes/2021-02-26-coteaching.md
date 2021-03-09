@@ -14,10 +14,8 @@ tags: [reading-notes,instance-selection,collaborative-learning]
 
 ## Summary
 
-Summarize the main claims/contributions of the paper in your own words
-
 1. Collaborative algorithm between two networks to learn on untrusted data only.
-2. Each round, loss of each network is computed on it's own minibatch. The samples with the smallest loss are considered the most informative and are given to the other network to learn.
+2. Each round, loss of each network is computed on it's own minibatch. The samples with the smallest loss are considered the most informative and are given to the other network to learn (link to curriculum learning)
 3. Leverage memorization effect of deep neural networks (first learn clean and easy patterns then overfit noise).
 4. Introduction of a dynamic size for the number of informative samples used (start high then reduce with number of epochs)
 
