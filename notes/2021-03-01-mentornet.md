@@ -18,8 +18,9 @@ tags: [reading-notes,meta-learning,importance-reweighting]
 2. Meta Learning algorithm to learn a curriculum from data instead of hand designing it : Learning curriculum
 3. Actual Biquality Learning algorithm (learning the curriculum on a mix of trusted and untrusted data)
 4. Proposed architecture of MentorNet (model that represent the learned curriculum) with bidirection LSTM (for loss evolution and memory) and MLP
-5. Insights on the algorithm that might (not automatically) optimize an M-Robust loss function.
-6. Exaustive experiments against state of the art curriculum based reweighting scheme.
+5. MentorNet learned as a supervised classification task (clean samples as 1, corrupted samples as 0). Student Net learn the usual tasks on reweighted samples from MentorNet.
+6. Insights on the algorithm that might (not automatically) optimize an M-Robust loss function.
+7. Exaustive experiments against state of the art curriculum based reweighting scheme.
 
 <!--truncate-->
 
