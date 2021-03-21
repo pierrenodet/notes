@@ -4,10 +4,17 @@
         <title>notes Blog</title>
         <link>https://pierrenodet.github.io/</link>
         <description>notes Blog</description>
-        <lastBuildDate>Mon, 01 Mar 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Mar 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright © 2021 Pierre Nodet.</copyright>
+        <item>
+            <title><![CDATA[Meta Transition Adaptation for Robust Deep Learning with Noisy Labels]]></title>
+            <link>https://pierrenodet.github.io/notes/2021/03/21/mta</link>
+            <guid>Meta Transition Adaptation for Robust Deep Learning with Noisy Labels</guid>
+            <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[MTA’]]></description>
+        </item>
         <item>
             <title><![CDATA[MentorNet: Learning Data-Driven Curriculum for Very Deep Neural Networks on Corrupted Labels (MentorNet)]]></title>
             <link>https://pierrenodet.github.io/notes/2021/03/01/mentornet</link>
