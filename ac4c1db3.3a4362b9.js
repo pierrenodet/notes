@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[24],{88:function(a){a.exports=JSON.parse('{"allTagsPath":"/notes/tags","slug":"collaborative-learning","name":"collaborative-learning","count":1,"permalink":"/notes/tags/collaborative-learning"}')}}]);
